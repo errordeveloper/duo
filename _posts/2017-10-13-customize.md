@@ -47,7 +47,7 @@ yarn install
 yarn watch
 ```
 
-- Then edit `_static/app.css`, then wait for it to be compiled into `static/app.css`.
+- Then edit `_assets/app.css`, then wait for it to be compiled into `assets/app.css`.
 - You can also edit `webpack.mix.js` to customize Webpack config.
 
 ### Customize Favicon

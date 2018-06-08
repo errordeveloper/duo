@@ -22,16 +22,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% feed_meta %}
-    <link rel="stylesheet" href="{{ "/static/app.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/app.css" | relative_url }}">
     {% if site.by_weaveworks %}
-      <link rel="icon" href="{{ "/static/favicon/favicon_150px.png" | relative_url }}" sizes="32x32"/>
-      <link rel="icon" href="{{ "/static/favicon/favicon_300px.png" | relative_url }}" sizes="192x192"/>
-      <link rel="apple-touch-icon-precomposed" href="{{ "/static/favicon/favicon_180px.png" | relative_url }}"/>
-      <meta name="msapplication-TileImage" content="{{ "/static/favicon/favicon_300px.png"  | relative_url }}"/>
+      <link rel="icon" href="{{ "/assets/favicon/favicon_150px.png" | relative_url }}" sizes="32x32"/>
+      <link rel="icon" href="{{ "/assets/favicon/favicon_300px.png" | relative_url }}" sizes="192x192"/>
+      <link rel="apple-touch-icon-precomposed" href="{{ "/assets/favicon/favicon_180px.png" | relative_url }}"/>
+      <meta name="msapplication-TileImage" content="{{ "/assets/favicon/favicon_300px.png"  | relative_url }}"/>
     {% else %}
-      <link rel="icon" href="{{ "/static/favicon/generic.ico" | relative_url }}" sizes="32x32"/>
+      <link rel="icon" href="{{ "/assets/favicon/generic.ico" | relative_url }}" sizes="32x32"/>
     {% endif %}
-    {% seo %}
+    {% seo %}q
   </head>
   <body>
     <main class="measure-wide center ph3 pt5 pb6">
@@ -45,15 +45,15 @@
           <div class="sponsor-badge">
             <span class="sponsor-badge-text" style="margin-left: 0rem;">sponsored by</span>
             <a class="sponsor-badge-link" href="https://weave.works">
-              <img src="{{ "/static/images/weaveworks.svg" | relative_url }}" style="height: 1rem;margin-bottom: -0.25rem;">
+              <img src="{{ "/assets/images/weaveworks.svg" | relative_url }}" style="height: 1rem;margin-bottom: -0.25rem;">
             </a>
             <span class="sponsor-badge-text">and built by</span>
             <a class="sponsor-badge-link" href="https://github.com/{{ site.repository }}/graphs/contributors">
-              <img src="{{ "/static/images/gophers.png" | relative_url }}" style="height: 1.5rem;margin-bottom: -0.3rem;">
+              <img src="{{ "/assets/images/gophers.png" | relative_url }}" style="height: 1.5rem;margin-bottom: -0.3rem;">
             </a>
             <span class="sponsor-badge-text">on</span>
             <a class="sponsor-badge-link" href="https://github.com/{{ site.repository }}">
-              <img src="{{ "/static/images/octocat.svg" | relative_url }}" style="height: 1rem;margin-bottom: -0.1rem;">
+              <img src="{{ "/assets/images/octocat.svg" | relative_url }}" style="height: 1rem;margin-bottom: -0.1rem;">
             </a>
           </div>
         {% endif %}

@@ -1,9 +1,9 @@
 const mix = require('laravel-mix')
 const webpack = require('webpack')
 
-mix.postCss('_static/app.css', 'static/', [
+mix.postCss('_assets/app.css', 'assets/', [
   require('postcss-import')({
-    from: '_static/app.css'
+    from: '_assets/app.css'
   }),
   require('cssnano')()
 ])
