@@ -173,10 +173,10 @@ figcaption {
   max-width: 64em;
 }
 
-
 .sponsor-badge {
   font-size: 1rem;
   font-weight: 200;
+  margin-top: -4rem;
 }
 
 .sponsor-badge a.sponsor-badge-link {
@@ -191,7 +191,14 @@ figcaption {
   background-color: white;
 }
 
-.ponsor-badge-text {
+.sponsor-badge-text {
   margin-right: 0.2rem;
   margin-left: 0.2rem;
+}
+
+.github-buttons {
+  text-align: right;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
